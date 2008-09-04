@@ -1,0 +1,103 @@
+plugin.novashadowbox {
+	# cat=plugin.novashadowbox: Basic; type=boolean; label=Enable : Enable shadowbox on tt_content
+	enable = 1
+
+	# cat=plugin.novashadowbox: Basic; type=boolean; label=Navigation : Enable navigation between Images
+	imageset = 1
+
+	# cat=plugin.novashadowbox: Animation; type=string; label= Disable animations : Default true
+	animate =
+
+	# cat=plugin.novashadowbox: Animation; type=string; label= Fade animation : Set this false to disable all fading animations. Defaults to true.
+	animateFade =
+
+	# cat=plugin.novashadowbox: Animation; type=string; label= Animation Sequence : 	The animation sequence to use when resizing Shadowbox. May be either "wh" (width first, then height), "hw" (height first, then width), or "sync" (both simultaneously). Defaults to "wh".
+	animSequence =
+
+	# cat=plugin.novashadowbox: Animation; type=string; label= FLV PLayer path : 	The URL of the flash video player. Only needed when displaying Flash video content. Defaults to "flvplayer.swf".
+	flvPlayer =	typo3conf/ext/novashadowbox/res/flvplayer.swf
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Close window on click : Set this false to disable listening for mouse clicks on the overlay that will close Shadowbox. Defaults to true.
+	modal =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Overlay Color : The color to use for the modal overlay (in hex). Defaults to "#000".
+	overlayColor =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Overlay Opacity : The opacity to use for the modal overlay. Defaults to 0.8.
+	overlayOpacity =
+
+	# cat=plugin.novashadowbox: Flash; type=string; label= Flash Background Color : The default background color to use for Flash movies. Defaults to "#000000".
+	flashBgColor =
+
+	# cat=plugin.novashadowbox: Movies; type=string; label= Autoplay Movies : Set this false to disable automatically playing movies when they are loaded. Defaults to true.
+	autoplayMovies =
+
+	# cat=plugin.novashadowbox: Movies; type=string; label= Show Movie Controls : Set this false to disable displaying QuickTime and Windows Media player movie control bars. Defaults to true.
+	showMovieControls =
+
+	# cat=plugin.novashadowbox: Animation; type=string; label= Slide Show Delay : A delay (in seconds) to use for slideshows.
+	slideshowDelay =
+
+	# cat=plugin.novashadowbox: Animation; type=string; label= Resize duration : The duration (in seconds) of the resizing animations. Defaults to 0.55.
+	resizeDuration =
+
+	# cat=plugin.novashadowbox: Animation; type=string; label= Fade duration : The duration (in seconds) of the fade animations. Defaults to 0.35.
+	fadeDuration =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Display Navigation : Set this false to hide the gallery navigation controls. Defaults to true.
+	displayNav =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Continuous nav : Set this true to enable "continuous" galleries.
+	continuous =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Display Counter : Set this false to hide the gallery counter.
+	displayCounter =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Counter Type : The mode to use for the gallery counter. May be either "default" or "skip".
+	counterType = skip
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Counter Limit : Limits the number of counter links that will be displayed in a "skip" style counter.Default "10"
+	counterLimit =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Viewport Padding : The amount of padding (in pixels) to maintain around the edge of the browser window. Defaults to 20.
+	viewportPadding =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Handle Oversize : The mode to use for handling content that is too large for the viewport. May be one of "none", "resize", or "drag" (for images)
+	handleOversize = drag
+
+	# cat=plugin.novashadowbox: Others; type=string; label= Handle Oversize : 	A function to use for handling exceptions. This function will be passed the error message (string) as its only argument. If this value is left null, exceptions will not be caught. Defaults to null.
+	handleException =
+
+	# cat=plugin.novashadowbox: Others; type=string; label= Handle unsupported : The mode to use for handling unsupported media. May be either "link" or "remove".
+	handleUnsupported =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Initial Height : The height of Shadowbox (in pixels) when it first appears on the screen. Defaults to 160.
+	initialHeight =
+
+	# cat=plugin.novashadowbox: Display; type=string; label= Initial Width : The width of Shadowbox (in pixels) when it first appears on the screen. Defaults to 160.
+	initialWidth =
+
+	# cat=plugin.novashadowbox: Others; type=string; label= Enable Keys : Set this false to disable keyboard navigation of galleries. Defaults to true.
+	enableKeys =
+
+	# cat=plugin.novashadowbox: Hooks; type=string; label= on Open Function : A hook function that will be fired when Shadowbox opens. The single argument of this function will be the current gallery element.
+	onOpen =
+
+	# cat=plugin.novashadowbox: Hooks; type=string; label= on Finish Function : A hook function that will fire when Shadowbox finishes loading the current gallery piece (after all animations are complete). The single argument of this function will be the current gallery element.
+	onFinish =
+
+	# cat=plugin.novashadowbox: Hooks; type=string; label= on Change Function : A hook function that will be fired when Shadowbox changes from one gallery element to another.
+	onChange =
+
+	# cat=plugin.novashadowbox: Hooks; type=string; label= on Close Function : A hook function that will be fired when Shadowbox closes.
+	onClose =
+
+	# cat=plugin.novashadowbox: Others; type=string; label= Skip Setup : Set this true to skip automatically calling Shadowbox.setup when Shadowbox initializes. Defaults to true. Note: This option may only be used in Shadowbox.init.
+	skipSetup =
+
+	# cat=plugin.novashadowbox: Others; type=string; label= Errors : An object containing the names and URL's of plugins and their respective download pages.
+	errors =
+
+	# cat=plugin.novashadowbox: Others; type=string; label= Ext : A map of players to their supported extensions. See the source for further details. Note: This option may only be used in Shadowbox.init.
+	ext =
+}

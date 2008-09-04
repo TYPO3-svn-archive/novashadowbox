@@ -1,0 +1,28 @@
+# cat=plugin.novashadowbox/setup; type=string; label= Skin : Set the skin you want to use
+setSkin = classic
+
+# cat=plugin.novashadowbox/setup; type=string; label= Lang : set the language you want to use
+setLang = fr
+
+# cat=plugin.novashadowbox/setup; type=string; label= Players : enable those players
+setPlayer = ["flv", "html", "iframe", "img", "qt", "swf", "wmp"]
+
+# cat=plugin.novashadowbox/file; type=string; label= Framework path : Set path to javascript framework
+frameworkPath = typo3conf/ext/novashadowbox/res/shadowbox2.0/jquery-1.2.6.min.js
+
+# cat=plugin.novashadowbox/file; type=string; label= Shadowbox adapter : Set path to shadowbox adapter script
+adapterPath = typo3conf/ext/novashadowbox/res/shadowbox2.0/adapter/shadowbox-jquery.js
+
+# cat=plugin.novashadowbox/file; type=string; label= Shadowbox path: Set path to shadowbox script
+shadowboxPath = typo3conf/ext/novashadowbox/res/shadowbox2.0/shadowbox.js
+
+# cat=plugin.novashadowbox/file; type=string; label= Skin folder: Set folder where skin are stored
+skinFolder = typo3conf/ext/novashadowbox/res/shadowbox2.0/skin
+
+# cat=plugin.novashadowbox/file; type=string; label= Lang folder: Set folder where language are stored
+langFolder = typo3conf/ext/novashadowbox/res/shadowbox2.0/lang
+
+# cat=plugin.novashadowbox/file; type=string; label= Player folder: Set folder where players script are stored
+playerFolder = typo3conf/ext/novashadowbox/res/shadowbox2.0/player
+
+

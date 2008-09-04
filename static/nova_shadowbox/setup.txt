@@ -1,0 +1,41 @@
+tt_content.image.20.1.file {
+	novashadowbox = {$plugin.novashadowbox.enable}
+	novashadowbox {
+		imageset = {$plugin.novashadowbox.imageset}
+		options {
+			animate = {$plugin.novashadowbox.animate}
+			animateFade = {$plugin.novashadowbox.animateFade}
+			animSequence = {$plugin.novashadowbox.animSequence}
+			flvPlayer = {$plugin.novashadowbox.flvPlayer}
+			modal = {$plugin.novashadowbox.modal}
+			overlayColor = {$plugin.novashadowbox.overlayColor}
+			overlayOpacity = {$plugin.novashadowbox.overlayOpacity}
+			flashBgColor= {$plugin.novashadowbox.flashBgColor}
+			autoplayMovies= {$plugin.novashadowbox.autoplayMovies}
+			showMovieControls= {$plugin.novashadowbox.showMovieControls}
+			slideshowDelay= {$plugin.novashadowbox.slideshowDelay}
+			resizeDuration= {$plugin.novashadowbox.resizeDuration}
+			fadeDuration= {$plugin.novashadowbox.fadeDuration}
+			displayNav= {$plugin.novashadowbox.displayNav}
+			continuous= {$plugin.novashadowbox.continuous}
+			handleOversize = {$plugin.novashadowbox.handleOversize}
+			displayCounter = {$plugin.novashadowbox.displayCounter}
+			counterType = {$plugin.novashadowbox.counterType}
+			counterLimit = {$plugin.novashadowbox.counterLimit}
+			viewportPadding = {$plugin.novashadowbox.viewportPadding}
+			handleOversize = {$plugin.novashadowbox.handleOversize}
+			handleException = {$plugin.novashadowbox.handleException}
+			handleUnsupported = {$plugin.novashadowbox.handleUnsupported}
+			initialHeight = {$plugin.novashadowbox.initialHeight}
+			initialWidth = {$plugin.novashadowbox.initialWidth}
+			enableKeys = {$plugin.novashadowbox.enableKeys}
+			onOpen = {$plugin.novashadowbox.counterType}
+			onFinish = {$plugin.novashadowbox.onFinish}
+			onChange = {$plugin.novashadowbox.onChange}
+			onClose = {$plugin.novashadowbox.onClose}
+			skipSetup = {$plugin.novashadowbox.skipSetup}
+			errors = {$plugin.novashadowbox.errors}
+			ext = {$plugin.novashadowbox.ext}
+		}
+	}
+}
